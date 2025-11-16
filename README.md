@@ -181,13 +181,13 @@ O projeto gera as seguintes visualizações:
    - Visualização de acertos e erros do modelo
 
 
-## 👤 Autor
+## Autor
 
 **Andre Quintela**
 
 - GitHub: [@Andre-Quintela](https://github.com/Andre-Quintela)
 
-## 🙏 Agradecimentos
+## Agradecimentos
 
 - Dataset Food-41 disponibilizado por kmader no Kaggle
 - Comunidade PyTorch pelos excelentes recursos e documentação
