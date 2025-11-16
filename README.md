@@ -1,16 +1,16 @@
-# Food Classification 🍽️
+# Food Classification
 
 Projeto de classificação de alimentos utilizando Deep Learning com PyTorch e ResNet-50.
 
-## 📋 Descrição
+## Descrição
 
 Este projeto implementa um classificador de alimentos utilizando técnicas avançadas de Deep Learning. O modelo é baseado na arquitetura ResNet-50 pré-treinada no ImageNet, com fine-tuning e otimizações específicas para melhorar a acurácia na classificação de diferentes tipos de pratos.
 
-## 🎯 Objetivo
+## Objetivo
 
 Desenvolver um modelo de classificação de imagens capaz de identificar diferentes tipos de alimentos com alta precisão, aplicando técnicas de transfer learning e data augmentation para melhorar a generalização.
 
-## 📊 Dataset
+## Dataset
 
 O projeto utiliza o **Food-41 Dataset** disponível no Kaggle:
 - **Fonte:** [Food-41 Dataset (Kaggle)](https://www.kaggle.com/kmader/food41)
@@ -22,7 +22,7 @@ O projeto utiliza o **Food-41 Dataset** disponível no Kaggle:
 - **Validação:** 20% do dataset
 - **Opção de subset:** Possibilidade de treinar com um subset menor (ex: 5000 imagens) para testes mais rápidos
 
-## 🏗️ Arquitetura do Modelo
+## Arquitetura do Modelo
 
 ### Modelo Base: ResNet-50
 
@@ -51,7 +51,7 @@ Modelo: ResNet-50 (pré-treinado no ImageNet)
 - **Batch size:** 32
 - **Device:** CUDA (GPU) ou CPU
 
-## 🔄 Data Augmentation
+## Data Augmentation
 
 ### Transformações de Treino
 Para melhorar a generalização do modelo, são aplicadas as seguintes técnicas:
@@ -68,7 +68,7 @@ Para melhorar a generalização do modelo, são aplicadas as seguintes técnicas
 - **Resize:** 224x224 pixels
 - **Normalização:** ImageNet standards (sem augmentation)
 
-## ⚙️ Configuração do Treinamento
+## Configuração do Treinamento
 
 ### Otimizador e Hiperparâmetros
 
@@ -87,7 +87,7 @@ Para melhorar a generalização do modelo, são aplicadas as seguintes técnicas
 - **Weight Decay:** L2 regularization (1e-4)
 - **Label Smoothing:** 0.1 para evitar overconfidence
 
-## 📈 Resultados
+## Resultados
 
 ### Melhorias Implementadas
 
@@ -108,7 +108,7 @@ Para melhorar a generalização do modelo, são aplicadas as seguintes técnicas
 - **Acurácia Esperada:** 65-75%
 - **Observação:** Tempo de treinamento mais longo, mas com melhor generalização
 
-## 🚀 Como Usar
+## Como Usar
 
 ### Pré-requisitos
 
@@ -151,7 +151,7 @@ subset_size = 5000  # Use None para dataset completo
 
 Valores sugeridos: 5000, 10000, 20000, ou None para o dataset completo.
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 Food-Classification/
@@ -159,7 +159,7 @@ Food-Classification/
 └── README.md                       # Este arquivo
 ```
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python 3.x**
 - **PyTorch:** Framework de Deep Learning
@@ -168,7 +168,7 @@ Food-Classification/
 - **Matplotlib:** Visualização de resultados
 - **NumPy:** Operações numéricas
 
-## 📊 Visualizações
+## Visualizações
 
 O projeto gera as seguintes visualizações:
 
@@ -180,19 +180,6 @@ O projeto gera as seguintes visualizações:
    - Imagens de validação com predições e labels verdadeiros
    - Visualização de acertos e erros do modelo
 
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-1. Fazer um fork do projeto
-2. Criar uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abrir um Pull Request
-
-## 📝 Licença
-
-Este projeto está sob uma licença aberta. Sinta-se livre para usar e modificar.
 
 ## 👤 Autor
 
